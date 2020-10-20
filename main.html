@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Website</title>
+	<style type="text/css">
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial ;
+
+}
+
+ul{
+	float: right;
+	list-style-type:none;
+	margin-top: 2%;
+}
+
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid  transparent;
+}
+ul li a:hover{
+	color:black;
+	background-color: #fff;
+	transition: 0.6s ease;
+}
+.logo img{
+	float: left;
+	width: 75px;
+	height: auto;
+	margin-left: 2%;
+}
+ul li.active a{
+	background-color: #fff;
+	color:black;
+}
+.title{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 50px;
+}
+.btn{
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.btn a{
+	color: #fff;
+	padding: 10px 50px;
+	border: 1px solid #fff;
+	text-decoration: none;
+}
+.btn a:hover{
+	color:black;
+	background-color: #fff;
+	transition: 0.6s ease;
+}
+	</style>
+</head>
+<body background="1.jpeg">
+<header>
+	<div class="main">
+		<div class="logo">
+			<img src="logo.png">
+		</div>
+		<ul>
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">E-library</a></li>
+			<li><a href="#">E-skills</a></li>
+			<li><a href="#">Gallery</a></li>
+			<li><a href="#">Contact Us</a></li>
+		</ul>
+	</div>
+	<div class="title">
+		<h1>Jagadeesh Creations</h1>
+	</div>
+	<div class="btn">
+		<a href="#">Videos</a>
+		<a href="#">Search</a>
+	</div>
+</header>
+</body>
+</html>
